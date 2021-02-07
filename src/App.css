@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Crazy Cartoon";
+  src: url('CrazyCartoon.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Commons Light";
+  src: url('TT\ Commons\ Light.otf') format("opentype");
+}
+
+h1{
+  font-family: "Crazy Cartoon";
+}
+
+p {
+  font-family: "Commons Light";
+}
+
+.randomFactContainer {
+  width: 50%;
+  border: 3px solid black;
+  transition: .34s ease;
+}
